@@ -7,6 +7,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   name: 'teste-projen-cdk',
   repositoryUrl: 'https://github.com/marciocadev/teste-projen-cdk.git',
 
+  majorVersion: 1,
   antitamper: false,
   release: true,
   docgen: true,
