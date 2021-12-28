@@ -17,4 +17,5 @@ const project = new awscdk.AwsCdkConstructLibrary({
     },
   },
 });
+
 project.synth();
